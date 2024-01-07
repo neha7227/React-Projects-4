@@ -55,7 +55,7 @@ function TableSort() {
         </thead>
         <tbody>
           {tableData.map((item, index) => (
-            <tr id={item.aticle} key={index}>
+            <tr id={item.article} key={index}>
               <td>{item.date}</td>
               <td>{item.views}</td>
               <td>{item.article}</td>
